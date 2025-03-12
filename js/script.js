@@ -163,7 +163,7 @@
 
 //10-masala
 {
-    function loki(k,n){
+    function num(k,n){
         let array = [];
         for(let i = k; i <= n; i++){
             if( i % 2 === 0){
@@ -172,6 +172,6 @@
         }
         return array;
     }
-    console.log(loki(1,8));
+    console.log(num(1,8));
     
 }
